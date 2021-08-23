@@ -13,7 +13,7 @@ public class DepartmentMain{
         System.out.println("Enter the Student id:");
         int sid = sc.nextInt();
 
-        System.out.println("Enter the Student name;");
+        System.out.println("Enter the Student name:");
         String sname = sc.next();
 
         Department dept = new Department();
