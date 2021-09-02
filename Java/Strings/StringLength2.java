@@ -1,11 +1,9 @@
 import java.util.*;
-public class Substring{
+public class StringLength2{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String string = sc.nextLine();
-        int start = sc.nextInt();
-        int end = sc.nextInt();
-        System.out.println(string.substring(start, end));
+        System.out.println("no of charachers is:" + string.length());
         sc.close();
     }
 }
