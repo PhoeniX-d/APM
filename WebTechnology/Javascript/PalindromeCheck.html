@@ -1,0 +1,27 @@
+<!-- This is a partial code. Implement the essential codes required --> 
+<html>
+    <head>
+        <script>
+            function palindrome()
+            {
+                var str=document.getElementById("palin").value;
+                var str=str.replace(/\s/g,"").toLowerCase();
+                var i, j;
+                for(i = 0, j = str.length - 1; i < j; i++, j--){
+                    if(str.charAt(i) != str.charAt(j))
+                        alert("The entry is not a palidrome");
+                        break;
+                }
+                if( i >= j)
+                    alert("The entry is a palidrome");
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+        Enter word/sentence to check for palindrome : <input type="text" name="palin" id="palin"><br>
+        <input type="button" name="palinbtn" value="Check Palindrome" onclick="palindrome()">
+        
+        </form>
+    </body>
+</html>
