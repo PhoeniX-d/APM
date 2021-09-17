@@ -1,0 +1,1 @@
+ALTER TABLE Sales_Info RENAME TO Sales_Information;

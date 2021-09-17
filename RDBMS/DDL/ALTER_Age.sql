@@ -1,0 +1,1 @@
+ALTER TABLE Customer_Info ADD Age NUMBER(10);

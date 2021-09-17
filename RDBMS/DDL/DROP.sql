@@ -1,0 +1,1 @@
+DROP TABLE Sales_Info;
