@@ -1,0 +1,1 @@
+select sum(net_amount) as total_sales, avg(net_amount) as avg_sales from sales_info;

@@ -1,0 +1,1 @@
+select max(price) as max_price from mobile_master;
